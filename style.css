@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+/*리셋코드:태그가 가지는 기본값을 0또는none으로 설정*/
+*{margin:0; padding:0;}
+li{list-style: none;}
+image{vertical-align: top;}
+/*header스타일*/
+header{width:1140px; height:139px; margin:0 auto;}
+
+header .top{height:38px; border:1px solid #e4e4e4; border-top:0;}
+header .top > div{padding:6px 0;}
+    #home{float:left; margin-bottom:30px;}
+    #sns{float:left; padding:6px 10px; border-left:1px solid #e4e4e4; border-right:1px solid #e4e4e4;}
+    #sns li{display:inline-block;}
+    #language{float:right; font-size: 0;
+        border-left:1px solid #e4e4e4;}
+    #language li{display:inline-block;}
+    #logo{float:left; padding:22px 0; margin-right:70px;}
+header #gnb{float:right; font-size:0; padding:22px 0;}
+    #gnb li{display:inline-block;}
+
+main{width:1140px; height:1186px; margin:0 auto;}
+    #main_view ~ section{float:left;}
+    #notice{width:255px; height:300px; padding:20px; box-sizing:border-box;}
+    #notice h3{font-size:18px; color:#000; font-weight:normal; margin-bottom:20px;}
+    #notice h3 img{float:right;}
+    #notice iframe{width:215px; height:220px; border:0;}
+    
+    #link{width:300px; height:300px; background:url("images/bg.jpg") center/cover no-repeat; box-sizing:border-box;}
+    #link li{color:#fff; font-size: 14px; line-height:24px; border-bottom:1px solid #fff; padding:13px 0;}
+    #link a{float:right; padding:0 12px; margin-right:12px; background:#fff; color:#000; border-radius:12px; font-size:12px;}
+
+footer{width:1140px; height:350px; margin:0 auto; background:#262b36;}
+        #host{background:#fff; height:112px;}
+        #host p{float:left;}
+footer address{width:850px; margin:20px 0 0 70px;
+    font-family:"맑은 고딕"; font-size:13px; color:#888;
+    font-style:normal; line-height:34px;}
+footer address p.first-child{white-space:pre;}
+footer address p:nth-child(2){border-top:1px solid #464b54;}
+footer address p:last-child{font-size:11px; color:#5d5d5d;}
+
+
+/*공지사항 페이지*/
+#board table{width:215px; font-family:"돋움"; font-size:12px;
+    border-collapse:collapse; /*칸을 붙이는 스타일*/
+    line-height:24px;
+}
+#board caption, #board thead{display:none;}
+#board .title{width:170px;}
+#board .date{width:45px;}
+#board p{width:170px; white-space:nowrap; overflow:hidden;
+       text-overflow:ellipsis; font-size:12px; color:#555; text-align:left;}

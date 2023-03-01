@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+*{margin:0; padding:0;}
+li{list-style: none;}
+image, iframe{vertical-align: top;}
+
+header{width:1348px; height:123px; margin:0 auto; 
+    border:2px solid #000;}
+    #top h1{float: left; margin: 20px 200px;}
+    .util_nav{float:right; margin:0 124px;}
+    .util_nav li{display:inline-block; margin-left:30px;}
+    .util_nav img{margin-top: 10px;}
+    .menu_nav{float:right; margin:0 200px;}
+    .menu_nav li{display:inline-block; margin-left:30px;}
